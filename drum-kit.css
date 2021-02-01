@@ -1,0 +1,42 @@
+body{
+    background:black;
+    margin:0%;
+    padding:0%;
+}
+.sub{
+    font-size:12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:yellow;
+    font-weight:300;
+    padding:2px;
+}
+.key{
+    border-radius: 5px;
+    transition: all 0.7s;
+    position: center;
+    color:whitesmoke;
+    display:inline-block;
+
+    font-size:30px;
+    font-weight:700;
+    margin:1%;
+    border:3px solid wheat;
+    padding:1%;
+    background:transparent;
+}
+kbd{
+    display:block;
+    font-size:40px;
+}
+.playing{
+    transform: scale(1.1);
+    border-color:#ffc600;
+    box-shadow:0 0 10px #ffc600;
+}
+.drumset{
+    padding:1%;
+    margin:2%;
+    text-align: center;
+    width:80%;
+
+}
