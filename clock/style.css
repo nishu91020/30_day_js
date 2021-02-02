@@ -1,0 +1,30 @@
+body{
+    background-color: thistle;
+}
+.clock{
+    padding:2rem;
+    margin-top:5%;
+    margin-left: 30%;;
+    height:500px;
+    width:500px;
+    border:white 5px solid;
+    border-radius:50%;
+    position: relative;
+    
+}
+.clock-face{
+    position: absolute;
+    height:100%;
+    width:100%;
+    transform: translateY(-3px);
+}
+.hand{
+    background: black;
+    position:absolute;
+    height:5px;
+    width:45%;
+    top:50%;
+    transform-origin: 100%;
+    transform:rotate(90deg);
+    transition-timing-function: cubic-bezier(0.1,2.7, 0.60, 1);
+}
