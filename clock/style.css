@@ -2,7 +2,6 @@ body{
     background-color: thistle;
 }
 .clock{
-    padding:2rem;
     margin-top:5%;
     margin-left: 30%;;
     height:500px;
@@ -16,13 +15,15 @@ body{
     position: absolute;
     height:100%;
     width:100%;
+    
     transform: translateY(-3px);
 }
 .hand{
     background: black;
     position:absolute;
     height:5px;
-    width:45%;
+    width:50%;
+    
     top:50%;
     transform-origin: 100%;
     transform:rotate(90deg);
