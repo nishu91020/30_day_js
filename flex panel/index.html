@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Panel</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="panels">
+        <div class="panel panel1 ">
+            <p>Let's</p>
+            <p>Do</p>
+            <p>It</p>
+        </div>
+        <div class="panel panel2 ">
+            <p>Never</p>
+            <p>Give</p>
+            <p>Up</p>
+        </div>
+        <div class="panel panel3 ">
+            <p>Take</p>
+            <p>It</p>
+            <p>All</p>
+        </div>
+        <div class="panel panel4 ">
+            <p>Sweat</p>
+            <p>Achive</p>
+            <p>Enjoy</p>
+        </div>
+        <div class="panel panel5 ">
+            <p>Eat</p>
+            <p>Sllep</p>
+            <p>Code</p>
+        </div>
+    </div>
+    <script>
+        const panels=document.querySelectorAll('.panel')
+        function toggleOpen()
+        {
+            this.classList.toggle('open');
+        }
+        panels.forEach(panel => panel.addEventListener('click',toggleOpen));
+            
+    </script>
+</body>
+</html>
